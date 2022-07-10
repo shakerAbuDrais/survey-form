@@ -8,19 +8,37 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>hello world, We are Software Developers!</h1>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description"></p>
+      <form id="survey-form" action="index.html" method="post">
+        <label id="name-label" for="name">name</label>
+        <input id="name" type="text" value="" required placeholder="enter your name">
+        <label id="email-label" for="email">email</label>
+        <input id="email" type="email" value="" required placeholder="enter your email">
+        <label id="number-label" for="number">age</label>
+        <input id="number" type="number" value="" min="18" max="60" placeholder="enter your age">
+        <Select id="dropdown">
+          <option value="student">student</option>
+          <option value="full time job">full time job</option>
+          <option value="full time learner">full time learner</option>
+        </Select>
+        <label for="choice">Would you recommend freeCodeCamp to a friend?
+</label>
+        <label for="">deffintly</label>
+        <input type="radio" name="choice" value="deffintly">
+        <label for="">maybe</label>
+        <input type="radio" name="choice" value="maybe">
+        <label for="">not sure</label>
+        <input type="radio" name="choice" value="not sure">
+        <label for="">challanges</label>
+        <input type="checkbox" value="challanges">
+        <label for="">fornt end prjects</label>
+        <input type="checkbox" value="fornt end prjects" >
+        <label for="">backend projects</label>
+        <input type="checkbox" value="backend projects">
+      </form>
+    </main>
     <script  src="js/index.js"></script>
   </body>
 </html>

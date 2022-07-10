@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+#main  h1, #main p {
+  text-align: center;
+}
+#survey-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+label {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+#dropdown {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.radio {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.radio input {
+  margin-right: 50%;
+}
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.checkbox input {
+  margin-right: 50%;
+}
+#choose {
+  padding-top:20px;
+}
+button {
+  margin: 30px;
+  font-size: 20px;
+  background-color: green;
+  border-radius: 2px;
+  color: white;
+
+}
